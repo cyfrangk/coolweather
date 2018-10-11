@@ -7,3 +7,7 @@
     compile 'com.github.bumptech.glide:glide:3.7.0'
 
     数据库必然要有把表格的存在，根据省市县需要创建三个表格
+
+    省市县的数据经常会用到，所以不写在页面中，而是写入碎片
+
+    在碎片中最好不要直接使用ActionBar或Toolbar,不然在复用的时候会出现错误的结果。
